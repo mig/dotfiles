@@ -6,6 +6,9 @@ PS1='[\u@\h \W]\$ '
 
 alias vi=vim
 
+# To ensure vim colors display properly in Konsole
+TERM=xterm-256color
+
 # Colored MAN pages
 # From: http://tuxarena.blogspot.com/2009/06/6-bash-productivity-tips.html
 export LESS_TERMCAP_mb=$'\E[01;31m' # begin blinking
